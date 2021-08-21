@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "test": "jest --coverage"
   },
   "files": [
     "dist",
@@ -15,8 +16,11 @@
   "license": "IMT",
   "devDependencies": {
     "@types/babel__core": "^7.1.15",
+    "@types/jest": "^27.0.1",
     "@types/mime-types": "^2.1.1",
     "babel-types": "^6.26.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.3.5"
   },
   "dependencies": {
