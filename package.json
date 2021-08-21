@@ -12,6 +12,12 @@
     "dist",
     "src"
   ],
+  "keywords": [
+    "babel-plugin",
+    "react-native",
+    "image",
+    "base64"
+  ],
   "author": "iChengbo",
   "license": "IMT",
   "devDependencies": {
